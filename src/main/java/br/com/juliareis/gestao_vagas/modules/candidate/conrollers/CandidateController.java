@@ -10,6 +10,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class CandidateController {
     @PostMapping("/")
     public void create(@RequestBody CandidateEntity candidateEntity) {
-
+    System.out.println("candidate");
     }
 }
